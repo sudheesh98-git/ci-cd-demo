@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "jest": "^30.5.2",
+    "nodemon": "^3.1.14"
+  },
+  "name": "ci-cd-demo",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudheesh98-git/ci-cd-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudheesh98-git/ci-cd-demo/issues"
+  },
+  "homepage": "https://github.com/sudheesh98-git/ci-cd-demo#readme",
+  "description": ""
+}
